@@ -8,12 +8,34 @@
 }
 
 .divider {
-    height: 3px;
     background-color: #7d97ad;
+    height: 3px;
+    margin: 10px 0;
 }
 
 .profile-logo {
     height: 90px;
     width: 90px;
     border-radius: 50%;
+}
+
+.project-tile {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-image {
+    height: 175px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.featured-work {
+    color: #7d97ad;
+    font-weight: bolder;
+    margin: 20px 0 20px 30px;
+}
+
+.description-text {
+    padding: 15px;
 }
